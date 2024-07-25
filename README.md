@@ -11,19 +11,19 @@ A Django project which implements the library system where you can add , update,
   "isbn": "9780743273565"
    }
 
-2) URL for displaying the books
-   GET method - http://127.0.0.1:8000/library/list-books/
+#### 2) URL for displaying the books
+   ##### GET method - http://127.0.0.1:8000/library/list-books/
 
-3) URL for deleting a book
-   POST method - http://127.0.0.1:8000/library/delete-book/
-   sample body -
+#### 3) URL for deleting a book
+   ##### POST method - http://127.0.0.1:8000/library/delete-book/
+   ##### sample body -
    {
   "isbn": "9780743273565"
    }
 
-4) URL for updating a new book
-   POST method - http://127.0.0.1:8000/library/update-book/
-   sample body -
+#### 4) URL for updating a new book
+   ##### POST method - http://127.0.0.1:8000/library/update-book/
+   ##### sample body -
    {
   "title": "The Great Gatsby",
   "author": "Akhil",
