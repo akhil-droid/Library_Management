@@ -38,6 +38,7 @@ A Django project which implements the library system where you can add , update,
    ##### POST method - http://127.0.0.1:8000/library/add-library/
    ##### sample body -
    {}
+   ![image](https://github.com/user-attachments/assets/1fc45624-32ca-4366-8145-543c0bc9aa54)
 
 #### 6) URL for adding a book to the library
    ##### POST method - http://127.0.0.1:8000/library/add-book-to-library/
@@ -46,12 +47,15 @@ A Django project which implements the library system where you can add , update,
   "library_id": 1,
   "isbn": "9780743273565"
    }
+   ![image](https://github.com/user-attachments/assets/31ec7520-5ac9-46c1-b442-e4fa1c94fae2)
 
 #### 7) URL for displaying the books of a library
    ##### POST method - http://127.0.0.1:8000/library/<int:library_id>/display-books/
+   ![image](https://github.com/user-attachments/assets/0bd31030-6c13-4f3a-97f1-bc970fa06a29)
 
 #### 8) URL for searching a book of a library
    ##### POST method - http://127.0.0.1:8000/library/<int:library_id>/search-book/<str:title>/
+   ![image](https://github.com/user-attachments/assets/601caabe-3c5f-4af8-afaf-fb80869ffbf3)
 
 #### 9) URL for adding a new ebook
    ##### POST method - http://127.0.0.1:8000/library/add-ebook/
@@ -59,9 +63,10 @@ A Django project which implements the library system where you can add , update,
    {
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald",
-  "isbn": "9780713273565"
+  "isbn": "9780713273565",
   "file_format": "PDF"
    }
+   ![image](https://github.com/user-attachments/assets/3294cc45-4db8-45e8-940c-25f5351333f5)
 
 #### 10) URL for displaying the ebooks
    ##### GET method - http://127.0.0.1:8000/library/list-ebooks/
