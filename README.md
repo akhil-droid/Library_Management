@@ -29,4 +29,24 @@ A Django project which implements the library system where you can add , update,
   "author": "Akhil",
   "isbn": "9780743273565"
    }
+
+#### 1) URL for adding a new library
+   ##### POST method - http://127.0.0.1:8000/library/add-library/
+   ##### sample body -
+   {}
+
+#### 2) URL for adding a book to the library
+   ##### POST method - http://127.0.0.1:8000/library/add-book-to-library/
+   ##### sample body -
+   {
+  "library_id": 1,
+  "isbn": "9780743273565"
+   }
+
+#### 3) URL for displaying the books of a library
+   ##### POST method - http://127.0.0.1:8000/library/<int:library_id>/display-books/
+
+#### 4) URL for searching a book of a library
+   ##### POST method - http://127.0.0.1:8000/library/<int:library_id>/search-book/<str:title>/
+
    
