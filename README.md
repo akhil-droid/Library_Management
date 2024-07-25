@@ -2,9 +2,9 @@
 A Django project which implements the library system where you can add , update, delete and display the books, libraries and ebooks
 
 ## URLs to Test the functionality and perform the CRUD operations of the Library APP in POstman.
-1) URL for adding a new book
-   POST method - http://127.0.0.1:8000/library/add-book/
-   sample body -
+#### 1) URL for adding a new book
+   ##### POST method - http://127.0.0.1:8000/library/add-book/
+   ##### sample body -
    {
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald",
