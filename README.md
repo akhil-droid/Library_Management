@@ -10,6 +10,7 @@ A Django project which implements the library system where you can add , update,
   "author": "F. Scott Fitzgerald",
   "isbn": "9780743273565"
    }
+   <img width="960" alt="image" src="https://github.com/user-attachments/assets/80bac837-c5c0-4faa-aa81-24c40de5714e">
 
 #### 2) URL for displaying the books
    ##### GET method - http://127.0.0.1:8000/library/list-books/
