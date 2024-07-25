@@ -70,22 +70,25 @@ A Django project which implements the library system where you can add , update,
 
 #### 10) URL for displaying the ebooks
    ##### GET method - http://127.0.0.1:8000/library/list-ebooks/
+   ![image](https://github.com/user-attachments/assets/f24c6411-f203-4c7e-9b8b-9f7a91982fc6)
 
-#### 11) URL for deleting a ebook
-   ##### POST method - http://127.0.0.1:8000/library/delete-ebook/
-   ##### sample body -
-   {
-  "isbn": "9780713273565"
-   }
-
-#### 12) URL for updating a new ebook
+#### 11) URL for updating a new ebook
    ##### POST method - http://127.0.0.1:8000/library/update-ebook/
    ##### sample body -
    {
   "title": "The Great Gatsby",
   "author": "Akhil",
-  "isbn": "9780743273505"
+  "isbn": "9780713273565"
   "file_format": "PDF"
    }
+   ![image](https://github.com/user-attachments/assets/d89d3202-ae4c-45c0-b919-d5865b71123a)
+
+#### 12) URL for deleting a ebook
+   ##### POST method - http://127.0.0.1:8000/library/delete-ebook/
+   ##### sample body -
+   {
+  "isbn": "9780713273565"
+   }
+   ![image](https://github.com/user-attachments/assets/55473d1d-3390-4608-ad76-585dbfbeedf1)
 
    
